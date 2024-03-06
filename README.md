@@ -75,47 +75,6 @@ Input:  ['a', ['a', 'b', 'c']]
 Output:  ['a']
 
 
-Input:  ['adc', ['a', 'b', 'c', 'a', 'a', 'd', 'b']]
-Output:  ['a', 'c', 'a', 'a', 'd']
-
-
-Input:  ['abc', ['a', 'b', 'c']]
-Output:  ['a', 'b', 'c']
-
-
-Input:  ['Listen', ['enlist', 'silent', 'inlet', 'tinsel']]
-Output:  []
-
-
-Input:  ['hello!', ['hello', 'world', 'hi']]
-Output:  ['hello']
-
-rishighanti@Rishikeshs-MacBook-Pro ds-algo % python3 solution.py
-
-Input:  ['ate', ['ate', 'eat', 'tea', 'dog', 'do', 'god', 'goo', 'go', 'good']]
-Output:  ['ate', 'eat', 'tea']
-
-
-Input:  ['oogd', ['ate', 'eat', 'tea', 'dog', 'do', 'god', 'goo', 'go', 'good']]
-Output:  ['dog', 'do', 'god', 'goo', 'go', 'good']
-
-
-Input:  ['', []]
-Output:  []
-
-
-Input:  ['', ['enlist', 'silent', 'inlet', 'tinsel', 'apple']]
-Output:  []
-
-
-Input:  ['listen', []]
-Output:  []
-
-
-Input:  ['a', ['a', 'b', 'c']]
-Output:  ['a']
-
-
 Input:  ['adc', ['a', 'b', 'c', 'ax', 'ac', 'd', 'b']]
 Output:  ['a', 'c', 'ac', 'd']
 
